@@ -22,8 +22,8 @@ public class UserApiApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         userRepository.saveAll(List.of(
-        new User(null, "Gabriella", "gabi@gmail.com", "1234", 20.0),
-        new User(null, "Jonathan", "jojo@gmail.com", "4321", 20.0)
+        new User(null, "Gabriella", "gabi@gmail.com", "1234", 30.0),
+        new User(null, "Jonathan", "jojo@gmail.com", "4321", 40.0)
         ));
     }
 }
